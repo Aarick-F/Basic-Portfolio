@@ -10,6 +10,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background: url("../images/swirl_pattern.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .container {
@@ -26,8 +27,7 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	margin: 0;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-bottom: 2px solid #777;
+	border-bottom: 2px solid #CCC;
 	background-color: #FFF;
 }
 
@@ -38,9 +38,11 @@ nav ul {
 }
 
 nav ul li {
-	margin: 0 5px;
+	margin: 0 15px;
 	padding: 5px;
 	color: #777;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .link {
@@ -53,8 +55,67 @@ nav ul li {
 	transition: 0.3s;
 }
 
+.group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.main {
+	margin: 30px;
+	padding: 30px 0;
+	font-size: 32px;
+	border-bottom: 5px solid #DDD;
+}
+
+.sub {
+	margin: 30px;
+	padding: 5px 0 24px 0;
+	font-size: 24px;
+	border-bottom: 5px solid #DDD;
+}
+
+.tealFont {
+	color: #4aaaa5;
+}
+
+.greyFont {
+	color: #777;
+}
+
+section {
+	min-width: 650px;
+	background-color: #FFF;
+	margin-top: 30px;
+	border: 2px solid #ddd; 
+}
+
+aside {
+	min-width: 270px;
+	background-color: #FFF;
+	margin-top: 30px;
+	border: 2px solid #ddd;  
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	background-color: #666;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	margin-top: 40vh;
+}
+
+footer p {
+	padding: 20px 0;
+	color: #ddd;
+}
+
 #brand {
-	font-size: 1.5em;
+	font-size: 32px;
 	background-color: #4aaaa5;
 	color: #FFF;
 	height: 100%;
