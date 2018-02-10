@@ -50,9 +50,23 @@ nav ul li {
 	color: #777;
 }
 
-.link:hover {
+a:hover {
 	color: #4aaaa5;
 	transition: 0.3s;
+}
+
+.iconList {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	margin: 10px 0;
+	color: #666;
+	text-decoration: none;
+}
+
+.iconList:visited {
+	color: #666;
 }
 
 .group {
