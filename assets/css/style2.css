@@ -17,6 +17,7 @@ nav {
 	margin: 0;
 	border-bottom: 2px solid #CCC;
 	background-color: #FFF;
+	width: 100%;
 }
 
 nav ul {
@@ -80,10 +81,10 @@ aside {
 
  footer p {
  	color: #DDD;
- 	padding: 30px;
+ 	padding: 20px;
  }
 
-#container {
+.container {
 	min-width: 960px;
 	display: flex;
 	flex-direction: column;
