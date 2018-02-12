@@ -1,0 +1,60 @@
+.portfolioContent {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 30px;
+	padding: 0;
+}
+
+.portfolioItem {
+	width: 250px;
+	height: 200px;
+	margin: 15px;
+	text-align: center;
+}
+
+.portfolioItem h3 {
+	background-color: #4AAAA5;
+	color: #FFF;
+	text-decoration: none;
+	padding: 15px 0;
+	margin-top: 50%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.portfolioItem a {
+	color: #FFF;
+}
+
+.portfolioItem h3:hover, .portfolioItem a:hover {
+	background-color: #666;
+	color: #4AAAA5;
+	transition: 0.3s;
+}
+
+.portfolioItem:nth-of-type(1) {
+	background: url("../images/kid-macho.jpg");
+	background-size: cover;
+}
+
+.portfolioItem:nth-of-type(2) {
+	background: url("../images/superjuke.png");
+	background-size: cover;
+}
+
+.portfolioItem:nth-of-type(3) {
+	background: url("../images/twist-loader.png");
+	background-size: cover;
+}
+
+.portfolioItem:nth-of-type(4) {
+	background: url("../images/flight-loader.png");
+	background-size: cover;
+}
+
+.portfolioItem:nth-of-type(5) {
+	background: url("../images/scoot-loader.png");
+	background-size: cover;
+}
