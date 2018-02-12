@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Aarick Farist - Contact</title>
-	<!-- MY STLYESHEET -->
+	<!-- MY STLYESHEETS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contactStyle.css">
 	<!-- FONT AWESOME ICONS -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
@@ -26,10 +27,21 @@
 		<!-- BEGIN CONENT SECTION -->
 		<div class="group">
 			<section>
-				<h1 class="contentHeading">Contact</h1>
+				<h1 class="contentHeading heading">Contact</h1>
+				<div class="contactForm">
+					<h2>Name</h2>
+					<input type="text" name="name" placeholder="John Smith">
+					<h2>Email</h2>
+					<input type="Email" name="email" placeholder="jsmith@example.com">
+					<h2>Message</h2>
+					<div class="fakeMessage">
+						<p>This is a fake input box :/</p>
+					</div>
+					<div class="button"><h3>Submit</h3></div>
+				</div>
 			</section>
 			<aside>
-				<h2 class="linkHeading">Connect with me</h2>
+				<h2 class="linkHeading heading">Connect with me</h2>
 				<ul class="link group">
 					<li><a href="https://github.com/Aarick-F" target="_blank"><i class="fab fa-github-square fa-4x"></i></a></li>
 					<li><a href="https://www.linkedin.com/in/afarist/" target="_blanket"><i class="fab fa-linkedin fa-4x"></i></a></li>
@@ -38,9 +50,10 @@
 			</aside>
 		</div>
 		<!-- END CONTENT SECTION -->
-		<!-- BEGIN FOOTER -->
-		<footer>
-		</footer>
 	</div>
+	<!-- BEGIN FOOTER -->
+	<footer>
+		<p>Copyright 2018 Aarick Farist</p>
+	</footer>
 </body>
 </html>
