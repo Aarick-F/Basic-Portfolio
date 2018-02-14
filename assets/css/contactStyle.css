@@ -12,6 +12,7 @@
 	height: 2.5em;
 	border: 1px solid #DDD;
 	color: #DDD;
+	margin: 20px 0;
 }
 
 .fakeMessage {
@@ -19,6 +20,7 @@
 	color: #DDD;
 	width: 100%;
 	height: 250px;
+	margin: 20px 0;
 }
 
 .fakeMessage p {
